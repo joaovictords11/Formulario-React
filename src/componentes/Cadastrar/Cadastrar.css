@@ -1,0 +1,41 @@
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin: 3rem 0;
+    padding: 0 1rem;
+}
+
+.cadastrar p {
+    font-size: 40px;
+    color: #6278F7;
+    border-bottom: 4px solid ;
+    padding-bottom: 8px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+}
+
+.cadastrar button{
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.cadastrar button:hover{
+    opacity: 80%;
+}
+
+.cadastrar button:active{
+    opacity: 60%;
+}
+
+@media screen and (max-width:450px){
+    .cadastrar{
+        gap: 2rem;
+    }
+
+    .cadastrar p{
+        border-bottom: none;
+    }
+}
