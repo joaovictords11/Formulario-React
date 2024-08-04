@@ -1,8 +1,8 @@
-.campo-texto{
+.campo{
     margin: 24px 0;
 }
 
-.campo-texto label{
+.campo label{
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
@@ -10,11 +10,16 @@
     font-weight: 600;
 }
 
-.campo-texto input{
+.campo input{
     box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.06);
     width: 100%;
     border: none;
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
+}
+
+.campo-color input{
+    height: 35px;
+    padding: 0;
 }
